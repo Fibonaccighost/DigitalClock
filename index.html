@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <style>
+        body {
+            background-color: aqua;
+        }
+
+        header {
+            font-size: 5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        main {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2vw;
+            font-size: 3rem;
+            position: relative;
+            width: 80vw;
+            height: 50vh;
+            margin: auto;
+        }
+
+        section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .start{
+            padding: 1rem 4rem;
+            border: 2px solid black;
+            border-radius: 2rem;
+            font-size: 2rem;
+        }
+        .start:hover{
+            background-color: white;
+            color: black;
+        }
+        #clock{
+            font-size: 7rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>Clock</header>
+    <main>
+        <p id="clock">Clock</p>
+    </main>
+    <section>
+        <button class="start">Get Time</button>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
